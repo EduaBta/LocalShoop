@@ -1,6 +1,6 @@
 import { View, Text, FlatList, StyleSheet } from "react-native";
 import LojaCard from "../components/LojaCard";
-import { LOJAS } from "../data/mockData";
+import { LOJAS } from "../../data/mockData";
 
 export default function HomeScreen() {
     return (
@@ -13,6 +13,24 @@ export default function HomeScreen() {
                 contentContainerStyle={styles.list}
                 />
         </View>
-    );
-}
+    ); }
 
+
+    const styles = StyleSheet.create({
+        container: {
+            flex: 1,
+            backgroundColor: '#f0f0f0',
+            paddingTop: 50,
+        },
+        headerTitle: {
+            fontSize: 24,
+            fontWeight: 'bold',
+            marginLeft: 20,
+            marginBottom: 20,
+            color: '#333',
+        },
+        list: {
+            paddingHorizontal: 20,  
+        }
+    
+    });
