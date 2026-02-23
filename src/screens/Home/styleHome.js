@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
-export
+ export 
 
-    const styles = StyleSheet.create({
+const styles = StyleSheet.create({
         container: {
             flex: 1,
             backgroundColor: '#f0f0f0',
@@ -15,7 +15,7 @@ export
             color: '#333',
         },
         list: {
-            paddingHorizontal: 20,
+            paddingHorizontal: 20,  
         }
-
+    
     });
